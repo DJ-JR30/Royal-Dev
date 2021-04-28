@@ -1,7 +1,8 @@
 function NSFW(Type) {
   if(Type == "ChanelUzi") {
-    var RanNum = Math.floor(Math.random() * (max - min + 1)) + min;
-    
+    var MinUZI = 1;
+    var MaxUZI = 14;
+    var RanNum = Math.floor(Math.random() * (MaxUZI - MinUZI + 1)) + MinUZI;
     var URL_ChanelUZI = "https://raw.githubusercontent.com/DJ-JR30/MainDB/main/images/ChanelUzi/";
     var File_Extension = ".jpg";
     
