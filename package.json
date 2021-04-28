@@ -11,5 +11,13 @@
     "Dev"
   ],
   "author": "Royal Lion",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJ-JR30/Royal-Dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DJ-JR30/Royal-Dev/issues"
+  },
+  "homepage": "https://github.com/DJ-JR30/Royal-Dev#readme"
 }
