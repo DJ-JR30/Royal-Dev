@@ -8,6 +8,16 @@ module.exports.LBtoKG = LBtoKG;
 
 // -------------------------------------- //
 
+function KGtoLB(Value) {
+  var KGtoPounds = Number(Value) * 2.2;
+  return KGtoPounds;
+}
+
+
+module.exports.KGtoLB = KGtoLB;
+
+// -------------------------------------- //
+
 function Recipes(Occ, Type) {
   if(Occ == "") {
     console.log("Occ Not Set!");
@@ -25,7 +35,7 @@ function Recipes(Occ, Type) {
 }
 
 
-module.exports.LBtoKG = LBtoKG;
+module.exports.Recipes = Recipes;
 
 // -------------------------------------- //
 
