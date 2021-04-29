@@ -1,3 +1,63 @@
+function LBtoKG(Value) {
+  var poundstoKG = Number(Value) / 2.2;
+  return poundstoKG;
+}
+
+
+module.exports.LBtoKG = LBtoKG;
+
+// -------------------------------------- //
+
+function Recipes(Occ, Type) {
+  if(Occ == "") {
+    console.log("Occ Not Set!");
+  }else{
+    if(Occ == "18+*") {
+      if(Type == "Food") {
+        console.log("18+ Food Found!");
+      }else{
+        if(Type == "Drink") {
+          console.log("18+ Drinks Found!")
+        }
+      }
+    }
+  }
+}
+
+
+module.exports.LBtoKG = LBtoKG;
+
+// -------------------------------------- //
+
+function createUUID() {
+  var dt = new Date().getTime();
+  var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    var r = (dt + Math.random() * 16) % 16 | 0;
+    dt = Math.floor(dt / 16);
+    return (c == 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+  });
+  return uuid;
+}
+
+
+module.exports.createUUID = createUUID;
+
+// -------------------------------------- //
+
+function generatePassword(length) {
+    charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    retVal = "";
+  for (var i = 0, n = charset.length; i < length; ++i) {
+    retVal += charset.charAt(Math.floor(Math.random() * n));
+  }
+  return retVal;
+}
+
+
+module.exports.generatePassword = generatePassword;
+
+// -------------------------------------- //
+
 function NSFW(Type) {
   if(Type == "ChanelUzi") {
     var MinUZI = 1;
