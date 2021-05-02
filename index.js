@@ -69,7 +69,7 @@ function generatePassword(length, EndingNumbers) {
     
     charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
       retVal = "";
-    var Ending = Math.floor(Math.random() * (max - min + 1)) + min;
+    var Ending = Math.floor(Math.random() * (maxPass - minPass + 1)) + minPass;
     for (var i = 0, n = charset.length; i < length; ++i) {
       retVal += charset.charAt(Math.floor(Math.random() * n));
     }
