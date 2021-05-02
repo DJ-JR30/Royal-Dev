@@ -1,6 +1,6 @@
 {
   "name": "royal-dev",
-  "version": "1.0.14",
+  "version": "1.0.19",
   "description": "Royal Feeling to Developer.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,8 @@
   },
   "keywords": [
     "Royal",
+    "generator",
+    "NSFW",
     "Dev"
   ],
   "author": "Royal Lion",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/DJ-JR30/Royal-Dev/issues"
   },
-  "homepage": "https://github.com/DJ-JR30/Royal-Dev#readme"
+  "homepage": "https://github.com/DJ-JR30/Royal-Dev#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
