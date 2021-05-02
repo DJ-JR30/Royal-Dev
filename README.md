@@ -13,7 +13,7 @@ When the package is ready for fully uses and bots I will change this README File
 ```
 const Royal = require('royal-dev');
 
-var result = LBtoKG(5);
+var result = Royal.LBtoKG(5);
 
 console.log(result);
 ```
