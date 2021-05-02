@@ -64,7 +64,7 @@ module.exports.createUUID = createUUID;
 
 function generatePassword(length, EndingNumbers) {
   if(EndingNumbers == true) {
-    var minPass = 10;
+    var minPass = 1000;
     var maxPass = 9999999;
     
     charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
